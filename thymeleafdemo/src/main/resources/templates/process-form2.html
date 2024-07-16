@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PC2</title>
+</head>
+<body>
+    <label th:for="show">Show: </label>
+    <span th:text="${message}" th:id="show"></span>
+    <br><br>
+    <label th:for="show2">Show: </label>
+    <span th:text="${param.commentVariable}" th:id="show2"></span>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+        lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Output
+    </title>
+</head>
+<body>
+
+    Hello World of Spring
+    <br> <br>
+    <label th:for="student">Name: </label>
+    <span th:text="${param.studentName}" th:id="student"></span>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+        lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World - Input Form</title>
+</head>
+<body>
+    <form
+            th:action="@{/processForm3}" method="POST" target="_blank">
+        <label for="student">Name: </label>
+
+            <input id="student" type="text" name="studentName"
+                   placeholder="Dimitris" autocomplete="off" value="Anastasia" required/>
+
+            <input type="submit" value="Send"/>
+            <input type="reset" />
+
+
+        <label for="comments" >
+            Comments:
+        </label>
+        <input id="comments" type="text" placeholder="Write your comments..." name="commentVariable">
+
+    </form>
+
+
+</body>
+</html>

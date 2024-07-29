@@ -51,9 +51,9 @@ public class Student {
     public String toString() {
         return "Student{" +
                 "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", country='" + country + '\'' +
+                ", lastName= '" + lastName + '\'' +
+                ", email= '" + email + '\'' +
+                ", country= '" + country + '\'' +
                 '}';
     }
 }

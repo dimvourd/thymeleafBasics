@@ -50,7 +50,7 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "firstName='" + firstName + '\'' +
+                "firstName ='" + firstName + '\'' +
                 ", lastName= '" + lastName + '\'' +
                 ", email= '" + email + '\'' +
                 ", country= '" + country + '\'' +

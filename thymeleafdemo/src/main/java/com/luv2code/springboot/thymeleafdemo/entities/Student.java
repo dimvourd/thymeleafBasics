@@ -54,6 +54,6 @@ public class Student {
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", country='" + country + '\'' +
-                "}\n";
+                '}';
     }
 }
